@@ -1479,7 +1479,7 @@ access_entry_class_change_get ( void *obj )
   return idnode_slist_get(obj, access_entry_class_change_slist);
 }
 
-static char *
+static const char *
 access_entry_class_change_rend ( void *obj, const char *lang )
 {
   return idnode_slist_rend(obj, access_entry_class_change_slist, lang);
@@ -1523,7 +1523,7 @@ access_entry_class_streaming_get ( void *obj )
   return idnode_slist_get(obj, access_entry_class_streaming_slist);
 }
 
-static char *
+static const char *
 access_entry_class_streaming_rend ( void *obj, const char *lang )
 {
   return idnode_slist_rend(obj, access_entry_class_streaming_slist, lang);
@@ -1576,7 +1576,7 @@ access_entry_class_dvr_get ( void *obj )
   return idnode_slist_get(obj, access_entry_class_dvr_slist);
 }
 
-static char *
+static const char *
 access_entry_class_dvr_rend ( void *obj, const char *lang )
 {
   return idnode_slist_rend(obj, access_entry_class_dvr_slist, lang);
