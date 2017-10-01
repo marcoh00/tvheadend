@@ -1584,7 +1584,7 @@ idnode_slist_set ( idnode_t *in, idnode_slist_t *options, const htsmsg_t *vals )
   return changed;
 }
 
-char *
+const char *
 idnode_slist_rend ( idnode_t *in, idnode_slist_t *options, const char *lang )
 {
   int *ip;
